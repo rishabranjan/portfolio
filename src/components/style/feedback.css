@@ -1,0 +1,55 @@
+.drawing-content-main-heading {
+  font-size: 3em;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.review-main-div {
+  /* margin-top: 150px; */
+  margin-bottom: 0;
+}
+
+.reviews-div > i {
+  font-size: 2em;
+  color: red;
+  width: max-content;
+  padding: 20px;
+  background: var(--unnamed-color-e9f7fe) 0% 0% no-repeat padding-box;
+  background: #e9f7fe 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  opacity: 1;
+  margin-bottom: 40px;
+}
+
+.reviews-div > h1 {
+  width: 563px;
+  letter-spacing: var(--unnamed-character-spacing--1);
+  color: var(--unnamed-color-1d293f);
+  text-align: left;
+  letter-spacing: -1px;
+  color: #1d293f;
+  opacity: 1;
+}
+
+.slider-main-div {
+  width: 100%;
+}
+
+.slider-div {
+  width: 80%;
+  margin-left: auto;
+}
+
+#Feedback {
+  background-color: #ebebeb;
+}
+
+.section-two {
+  padding-top: 65px;
+  /* margin-bottom: 50px; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

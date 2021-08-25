@@ -1,0 +1,101 @@
+@keyframes animatebottom {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+  to {
+    top: 30%;
+    opacity: 1;
+  }
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  background-color: #141414;
+  text-align: center;
+  padding: 25px 25px 0 25px;
+  color: #c9c9c9;
+}
+
+.contact {
+  float: left;
+  height: auto;
+  width: 20%;
+}
+
+.contact > h5 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.mail {
+  display: inline-block;
+
+  margin: 0px 10px 0px 2px;
+}
+.contact h5 {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+
+.number {
+  float: left;
+  margin: 5px 10px 2px 2px;
+}
+
+.mail {
+  float: left;
+}
+
+.copyright {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+
+.copyright > h2,
+h4 {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: auto;
+}
+
+.copyright > h4 {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.s-m {
+  float: right;
+}
+
+.s-m a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: rgba(201, 201, 201, 0.151);
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 22px;
+  text-decoration: none;
+}
+.s-m a:hover {
+  background: #767676;
+  color: #16d34e;
+}
+.s-m a i {
+  transition: 0.4s all;
+}
+.s-m a:hover > i {
+  transform: scale(1.6) rotate(25deg);
+}

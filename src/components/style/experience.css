@@ -1,0 +1,44 @@
+.exphead {
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px #000000;
+  width: 75%;
+  margin: 0px auto 25px auto;
+  height: 100px;
+}
+
+.exphead {
+  background-image: linear-gradient(to right, #000000ff, #c9c9c9);
+  overflow: visible !important;
+}
+
+.designer {
+  margin-top: -50px;
+}
+
+#Expirence {
+  padding-top: 120px;
+  background-color: #ebebeb;
+}
+
+.company {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px 0 50px;
+}
+
+.card__edge-button {
+  margin: 0 0 -1% 30%;
+  width: fit-content;
+  z-index: 11;
+}
+
+.separator {
+  margin: -5% 0 -1% 32%;
+  width: 10px;
+  height: 100px;
+  background-color: #16d34e;
+  z-index: 1;
+  /* overflow: hidden; */
+}
