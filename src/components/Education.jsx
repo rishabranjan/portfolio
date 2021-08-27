@@ -16,7 +16,7 @@ class Education extends Component {
           </div>
           <img
             className="designer"
-            src="/landingPage/education.png"
+            src="landingPage/education.png"
             alt="designer"
             width="160px"
           />
@@ -31,7 +31,7 @@ class Education extends Component {
                 <i class="fas fa-graduation-cap"></i>
                 <img
                   className="arrows arrow1"
-                  src="/landingPage/Arrowup.png"
+                  src="landingPage/Arrowup.png"
                   alt=""
                 />
                 <h1>Netaji Subhash Engineering College</h1>
@@ -45,7 +45,7 @@ class Education extends Component {
                 <i className="fas fa-university"></i>
                 <img
                   className="arrows arrow2"
-                  src="/landingPage/Arrowdown.png"
+                  src="landingPage/Arrowdown.png"
                   alt=""
                 />
                 <h1>L. P. SHAHI COLLEGE</h1>

@@ -30,7 +30,7 @@ class Experience extends Component {
           </div>
           <img
             className="designer"
-            src="/landingPage/designer.svg"
+            src="landingPage/designer.svg"
             alt="designer"
           />
         </Card>
@@ -47,7 +47,7 @@ class Experience extends Component {
             </div>
             <ExperienceCard
               elevation={24}
-              img={"/landingPage/tcs.jpeg"}
+              img={"landingPage/tcs.jpeg"}
               company={"Tata Consultancy Services"}
               designation={"System Engineer"}
               location={"Kolkata, West Bengal, India"}
@@ -57,7 +57,7 @@ class Experience extends Component {
           <div className="company">
             <div className="separator"></div>
             <ExperienceCard
-              img={"/landingPage/Raitech.png"}
+              img={"landingPage/Raitech.png"}
               company={"Rai Techintro"}
               designation={"Assistant System Engineer"}
               location={"Patna, Bihar, India"}

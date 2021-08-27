@@ -29,12 +29,12 @@ class Slider extends Component {
             name: "#CleanDesign",
           },
           {
-            img: "/landingPage/boy1.png",
+            img: "landingPage/boy1.png",
             para: "It’s got video calling capabilities. You can do live classes with your students.",
             name: "#NiceColors",
           },
           {
-            img: "/landingPage/girl2.png",
+            img: "landingPage/girl2.png",
             para: "Create group and invite all students at once. No need to add students every time you create a live session.",
             name: "#Smoothness",
           },

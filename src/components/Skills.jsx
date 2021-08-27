@@ -46,7 +46,7 @@ class Skills extends Component {
           </div>
           <img
             className="designer"
-            src="/landingPage/skills.png"
+            src="landingPage/skills.png"
             alt="designer"
             width="170px"
           />
