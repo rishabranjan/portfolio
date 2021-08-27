@@ -26,7 +26,13 @@ class Projects extends Component {
         Delivery System A basic website to see details of all the deliveries and
         keep track of your delivery’s last location using HTML, CSS, JAVASCRIPT.
         GAME - Rock Paper Scissors A basic website designed in ReactJS to play
-        Rock Paper Scissors game and various other small websites.
+        Rock Paper Scissors game and various other small websites. RentIT -
+        Video Renting App A react website to see details of all the videos and
+        keep track of your movies using React JS. Delivery - Courier Delivery
+        System A basic website to see details of all the deliveries and keep
+        track of your delivery’s last location using HTML, CSS, JAVASCRIPT. GAME
+        - Rock Paper Scissors A basic website designed in ReactJS to play Rock
+        Paper Scissors game and various other small websites.
       </div>
     );
   }
