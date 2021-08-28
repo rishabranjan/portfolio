@@ -19,5 +19,25 @@
 #Projects {
   padding-top: 120px;
   background-color: #ebebeb;
+}
 
+.projectmain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: url("/src/components/style/project.svg") no-repeat center 100%; */
+  position: relative;
+  z-index: 1;
+}
+
+.projectmain::after {
+  content: "";
+  background: url("/src/components/style/project.svg") no-repeat center 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
