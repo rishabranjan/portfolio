@@ -1,4 +1,4 @@
-# Hi! This is Rishab. This project is published and in case you want to have a look at it, please visit: https://rishabranjan.github.io/portfolio/
+# Hi! This is Rishab. This project is published and in case you want to have a look at it, please visit: https://rishabranjan.github.io/portfolio/#
 
 # Getting Started with Create React App
 
