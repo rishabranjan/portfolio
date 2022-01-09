@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import { Grid, Card } from "@material-ui/core";
+import { Card } from "@material-ui/core";
 import "./style/skills.css";
 import DragDrop from "./DragDrop";
 

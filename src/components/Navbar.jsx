@@ -8,7 +8,7 @@ class Navbar extends Component {
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand whitecolor" href="#">
+              <a class="navbar-brand whitecolor" href="#Name">
                 <h2>Rishaß Ranjan</h2>
               </a>
             </div>

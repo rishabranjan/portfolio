@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import axios from "axios";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Navbar from "./components/Navbar";
@@ -27,7 +26,7 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <div className="image">
+        <div id="Name" className="image">
           <div className="header">
             <h1>
               Hi there, I'm

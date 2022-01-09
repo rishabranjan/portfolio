@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Card } from "@material-ui/core";
+import { Card } from "@material-ui/core";
 import "./style/education.css";
 
 class Education extends Component {

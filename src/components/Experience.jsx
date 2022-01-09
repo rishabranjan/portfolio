@@ -1,17 +1,5 @@
 import React, { Component } from "react";
-import {
-  Card,
-  Icon,
-  Avatar,
-  Grid,
-  Badge,
-  Fab,
-  Divider,
-  IconButton,
-  Button,
-  withStyles,
-  Hidden,
-} from "@material-ui/core";
+import { Card, Fab } from "@material-ui/core";
 import TrendingUpIcon from "@material-ui/icons/TrendingUp";
 import "./style/experience.css";
 import ExperienceCard from "./ExperianceCard";
