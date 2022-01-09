@@ -85,8 +85,8 @@ class App extends Component {
         </div>
 
         <Experience />
-        <Skills />
         <Projects />
+        <Skills />
         <Education />
         <Feedback />
         <Footer />
