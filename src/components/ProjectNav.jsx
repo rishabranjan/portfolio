@@ -30,7 +30,7 @@ export default function ProjectNav(props) {
           {props.projects.map((project) => (
             <>
               <MenuItem
-                selected={props.currentProject === project}
+                selected={props.currentProject.number === project.number}
                 onClick={() => props.onChange(project)}
               >
                 {project.name}

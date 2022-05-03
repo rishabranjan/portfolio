@@ -76,7 +76,7 @@ class Projects extends Component {
           <Grid item xs={3}>
             <ProjectNav
               projects={this.state.projects}
-              currentProject={this.state.projects[0]}
+              currentProject={this.state.currentProject}
               onChange={this.onChange}
             />
           </Grid>
