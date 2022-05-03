@@ -74,7 +74,11 @@ class Projects extends Component {
         </Card>
         <div className="projectmain">
           <Grid item xs={3}>
-            <ProjectNav projects={this.state} onChange={this.onChange} />
+            <ProjectNav
+              projects={this.state.projects}
+              currentProject={this.state.projects[0]}
+              onChange={this.onChange}
+            />
           </Grid>
           <Grid item xs={6}>
             {/* <Paper>xs=6</Paper> */}

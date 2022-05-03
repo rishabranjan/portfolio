@@ -27,9 +27,12 @@ export default function ProjectNav(props) {
     <div className={classes.root}>
       <Paper elevation={6} className={classes.paper}>
         <MenuList className={classes.menuList}>
-          {props.projects.projects.map((project) => (
+          {props.projects.map((project) => (
             <>
-              <MenuItem onClick={() => props.onChange(project)}>
+              <MenuItem
+                selected={props.currentProject === project}
+                onClick={() => props.onChange(project)}
+              >
                 {project.name}
               </MenuItem>
               <Divider />
