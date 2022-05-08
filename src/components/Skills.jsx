@@ -51,15 +51,15 @@ class Skills extends Component {
         </Card>
         <div className="d-flex justify-content-around">
           <div>
-            <h3 className="text-muted">Languages</h3>
+            <h3 className="textCenter text-muted">Languages</h3>
             <DragDrop items={this.state.items} />
           </div>
           <div>
-            <h3 className="text-muted">Front End</h3>
+            <h3 className="textCenter text-muted">Front End</h3>
             <DragDrop items={this.state.FrontEnd} />
           </div>
           <div>
-            <h3 className="text-muted">Back End</h3>
+            <h3 className="textCenter text-muted">Back End</h3>
             <DragDrop items={this.state.BackEnd} />
           </div>
         </div>

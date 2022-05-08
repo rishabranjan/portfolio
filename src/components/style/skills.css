@@ -6,6 +6,9 @@
   margin: 0px auto 25px auto;
   height: 100px;
 }
+.textCenter{
+  text-align: center;
+}
 
 .skihead {
   background-image: linear-gradient(to left, #000000ff, #c9c9c9);
