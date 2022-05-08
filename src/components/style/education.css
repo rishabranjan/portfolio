@@ -112,9 +112,77 @@
   margin-top: 150px;
   margin-left: 120px;
 }
+.classesDiv-content {
+  /* width: 40% !important; */
+  flex-direction: row;
+}
 
-@media screen and (max-width: 1055px) {
+@media screen and (max-width: 1200px) {
   .section-one {
     width: 50% !important;
   }
+}
+
+@media screen and (max-width: 950px) {
+  .section-one {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .eduhead{
+    width: 100%;
+  }
+  .section-one {
+    width: 60% !important;
+    margin: auto;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .classesDiv-content {
+    flex-direction: column !important;
+  }
+  .first-feature{
+    margin: 0;
+  }
+  .third-feature{
+    margin: 0;
+  }
+  .second-feature{
+    margin: 0;
+  }
+  .online-features > p {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+  .online-features > i{
+    margin: 25px;
+  }
+  .online-features>h1{
+    text-align: center;
+  }
+  .online-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .online-features > p{
+    width: auto;
+  }
+  .arrows{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .section-one {
+    width: 100% !important;
+  }
+  .arrows{
+    display: none;
+  }
+  
 }

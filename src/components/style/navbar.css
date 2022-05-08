@@ -62,3 +62,25 @@
   border: 0px solid #ffee10;
   border-radius: 5px;
 }
+@media screen and (max-width: 768px) {
+  .navhead{
+    width: auto;
+    margin: auto;
+  }
+  .navbar-header{
+    width: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar{
+    flex-wrap: nowrap !important;
+  }
+  .s-m{
+    width: 75%;
+  }
+  .s-m a{
+    margin: 5px 6px;
+  }
+}

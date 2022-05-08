@@ -99,3 +99,44 @@ h4 {
 .s-m a:hover > i {
   transform: scale(1.6) rotate(25deg);
 }
+
+@media screen and (max-width: 900px) {
+  footer{
+    padding: 25px 10px 10px 10px;
+  }
+  .contact{
+    width: 30%;
+  }
+  .s-m {
+    float: none;
+  }
+  .copyright{
+    float: right;
+  }
+  .s-m{
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  footer{
+    padding: 25px 10px 10px 10px;
+  }
+  .contact{
+    width: 40%;
+    
+  }
+  .s-m {
+    float: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact{
+    width: 100%;
+    margin: auto;
+  }
+  .copyright{
+    float: none;
+  }
+}

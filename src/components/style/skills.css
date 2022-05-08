@@ -20,3 +20,8 @@
   padding-top: 120px;
   background-color: #ebebeb;
 }
+@media screen and (max-width: 900px) {
+  .skihead{
+    width: 100%;
+  }
+}

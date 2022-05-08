@@ -42,6 +42,19 @@ export default function ProjectDetails(props) {
           {props.ProjectDetails.details}
         </Typography>
       </div>
+      {props.ProjectDetails.links && (
+        <div className={classes.section2}>
+          <Typography color="textPrimary" variant="body2">
+            <a
+              href="https://rishabranjan.github.io/tic-tac-toe/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LINK
+            </a>
+          </Typography>
+        </div>
+      )}
       <Divider variant="middle" />
       <div className={classes.section2}>
         <Typography gutterBottom variant="body1">

@@ -88,7 +88,7 @@ class App extends Component {
         <Projects />
         <Skills />
         <Education />
-        <Feedback />
+        {/* <Feedback /> */}
         <Footer />
       </>
     );

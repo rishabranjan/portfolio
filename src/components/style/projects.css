@@ -41,3 +41,26 @@
   position: absolute;
   z-index: -1;
 }
+
+@media screen and (max-width: 900px) {
+  .prohead{
+    width: 100%;
+  }
+  .projectmain{
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectmain{
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectmain{
+    flex-direction: column;
+    justify-content:initial;
+    align-items: center;
+  }
+}

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Card } from "@material-ui/core";
-import Paper from "@material-ui/core/Paper";
 import "./style/projects.css";
 import ProjectNav from "./ProjectNav";
 import ProjectDetails from "./ProjectDetails";
@@ -13,6 +12,7 @@ class Projects extends Component {
       details:
         " A react website to see details of all the videos and keep track of your movies, add new movies, rent it, etc.",
       techs: ["HTML", "CSS", "BOOTSTRAP", "REACT"],
+      links: "https://github.com/rishabranjan/RentIT",
     },
     projects: [
       {
@@ -21,6 +21,7 @@ class Projects extends Component {
         details:
           " A react website to see details of all the videos and keep track of your movies, add new movies, rent it, etc.",
         techs: ["HTML", "CSS", "BOOTSTRAP", "REACT"],
+        links: "https://github.com/rishabranjan/RentIT",
       },
       {
         number: 2,
@@ -28,6 +29,7 @@ class Projects extends Component {
         details:
           " A basic website designed in ReactJS to play Rock Paper Scissors game and various other small websites.",
         techs: ["HTML", "CSS", "BOOTSTRAP", "REACT"],
+        links: "https://rishabranjan.github.io/rock-paper-scissors/",
       },
       {
         number: 3,
@@ -35,18 +37,14 @@ class Projects extends Component {
         details:
           " This is a basic react app using github api using semantic-ui and hooks. You can enter your username on the search button to get your details simple and straight.",
         techs: ["HTML", "CSS", "Material UI", "REACT"],
+        links: "https://rishabranjan.github.io/github-search/",
       },
       {
         number: 4,
         name: "Tic Tac Toe",
         details: "tic-tac-toe game with min-max algorithm.",
         techs: ["HTML", "CSS", "BOOTSTRAP", "Javascript"],
-      },
-      {
-        number: 5,
-        name: "Rock Paper Scissors",
-        details: " This a rock paper scissor game.",
-        techs: ["HTML", "CSS", "BOOTSTRAP", "REACT"],
+        links: "https://rishabranjan.github.io/tic-tac-toe/",
       },
     ],
   };
@@ -73,14 +71,14 @@ class Projects extends Component {
           />
         </Card>
         <div className="projectmain">
-          <Grid item xs={3}>
+          <Grid item md={3} sm={12} xs={12}>
             <ProjectNav
               projects={this.state.projects}
               currentProject={this.state.currentProject}
               onChange={this.onChange}
             />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item md={6} sm={12} xs={12}>
             {/* <Paper>xs=6</Paper> */}
             <ProjectDetails ProjectDetails={this.state.currentProject} />
           </Grid>
