@@ -21,9 +21,9 @@ class Education extends Component {
             width="160px"
           />
         </Card>
-        <section className="d-flex flex-center flex-middle section-one">
+        <section className="d-flex justify-content-center flex-center flex-middle section-one">
           <div className="d-flex flex-column flex-center  classroom classesDiv">
-            <div className="d-flex flex-center classesDiv-content">
+            <div className="d-flex justify-content-center flex-center classesDiv-content">
               <div
                 style={{ position: "relative" }}
                 className="online-features first-feature"

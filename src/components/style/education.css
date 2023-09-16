@@ -87,6 +87,9 @@
   margin: 0;
   line-height: 1.2em;
 }
+.first-feature{
+  max-width: 200px;
+}
 .second-feature {
   margin-top: 70px;
   position: relative;

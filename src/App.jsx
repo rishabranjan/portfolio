@@ -7,6 +7,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Feedback from "./components/Feedback";
+import Typewriter from "./components/helper/TypeWriter";
+import { Fade } from "react-bootstrap";
 
 class App extends Component {
   state = {
@@ -19,23 +21,36 @@ class App extends Component {
         <div id="Name" className="image">
           <div className="header">
             <h1>
-              Hi there, I'm
-              <span> Rishab Ranjan</span>
-              <br />
+              <Typewriter
+                text={"Hi there, I'm"}
+                speed={100}
+                initialDelay={100}
+              />
+              <span>
+                <Typewriter
+                  text={" Rishab Ranjan"}
+                  speed={100}
+                  initialDelay={1500}
+                />
+              </span>
             </h1>
             <h3>
-              Software Developer, working in PayPal as a Senior Software
-              Engineer.
+              <Typewriter
+                text={
+                  "Software Developer, working in PayPal as a Senior Software Engineer."
+                }
+                speed={50}
+                initialDelay={3000}
+              />
             </h3>
             <h4>
-              I'm a driven, ambitious and bold learner who adapts and absorbs
-              information quickly. I'm always up for a challenge and view it as
-              an opportunity to express my preverance and ability to work hard.
-            </h4>
-            <br />
-            <h4>
-              You'll often catch me chasing after thoughts from my 3 am musings,
-              hunting for the possibilities of functional reality in them.
+              <Typewriter
+                text={
+                  "I'm a driven, ambitious and bold learner who adapts and absorbs information quickly. I'm always up for a challenge and view it as an opportunity to express my preverance and ability to work hard."
+                }
+                speed={50}
+                initialDelay={7000}
+              />
             </h4>
             <div className="s-m">
               <a
@@ -82,6 +97,7 @@ class App extends Component {
         <Skills />
         <Education />
         {/* <Feedback /> */}
+
         <Footer />
       </>
     );
