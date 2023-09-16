@@ -25,17 +25,21 @@
   /* background-color: cornflowerblue; */
   display: flex;
   flex-direction: column;
-  margin: 50px 50px 0 50px;
+  margin: 0 50px 0 50px;
 }
 
 .card__edge-button {
-  margin: 0 0 -1% 30%;
-  width: fit-content;
+  margin: 0 auto -10px auto;
+  width: 350px;
   z-index: 11;
 }
 
+.separator-div{
+  margin: 0 auto -10px auto;
+  width: 350px;
+}
+
 .separator {
-  margin: -5% 0 -1% 32%;
   width: 10px;
   height: 100px;
   background-color: #16d34e;

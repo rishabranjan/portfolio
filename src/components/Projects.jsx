@@ -65,7 +65,7 @@ class Projects extends Component {
           </div>
           <img
             className="designer"
-            src="landingPage/project.jpg"
+            src={process.env.PUBLIC_URL + "/landingPage/project.jpg"}
             alt="designer"
             width="180px"
           />

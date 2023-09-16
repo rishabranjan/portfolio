@@ -18,7 +18,7 @@ class Experience extends Component {
           </div>
           <img
             className="designer"
-            src="landingPage/designer.svg"
+            src={process.env.PUBLIC_URL + "/landingPage/designer.svg"}
             alt="designer"
           />
         </Card>
@@ -35,22 +35,37 @@ class Experience extends Component {
             </div>
             <ExperienceCard
               elevation={24}
-              img={"landingPage/tcs.jpeg"}
-              company={"Tata Consultancy Services"}
-              designation={"System Engineer"}
-              location={"Kolkata, West Bengal, India"}
-              startDate={"Aug 2021"}
+              img={"/landingPage/paypalLogo.jpg"}
+              company={"PayPal"}
+              designation={"Software Engineer 2"}
+              location={"Chennai, Tamil Nadu, India"}
+              startDate={"Nov 2022"}
             />
           </div>
           <div className="company">
-            <div className="separator"></div>
+            <div className="separator-div">
+              <div className="separator"></div>
+            </div>
             <ExperienceCard
-              img={"landingPage/Raitech.png"}
+              img={"/landingPage/tcs.jpeg"}
+              company={"Tata Consultancy Services"}
+              designation={"System Engineer"}
+              location={"Kolkata, West Bengal, India"}
+              startDate={"Aug 2020"}
+              endDate={"Nov 2022"}
+            />
+          </div>
+          <div className="company">
+            <div className="separator-div">
+              <div className="separator"></div>
+            </div>
+            <ExperienceCard
+              img={"/landingPage/Raitech.png"}
               company={"Rai Techintro"}
               designation={"Assistant System Engineer"}
               location={"Patna, Bihar, India"}
               startDate={"June 2020"}
-              endDate={"Aug 2021"}
+              endDate={"Aug 2020"}
             />
           </div>
         </div>

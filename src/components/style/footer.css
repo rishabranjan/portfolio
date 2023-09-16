@@ -15,48 +15,45 @@ footer {
   bottom: 0px;
   background-color: #141414;
   text-align: center;
-  padding: 25px 25px 0 25px;
+  padding: 25px;
   color: #c9c9c9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact {
-  float: left;
-  height: auto;
-  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mail {
+}
+.copyright {
 }
 
-.contact > h5 {
+.contactDetails{
+  display: flex;
+  align-items: center;
+}
+
+.contactDetails > h5 {
   margin: 0px;
   padding: 0px;
   font-size: 10px;
   letter-spacing: 2px;
-  text-align: left;
 }
 .mail {
   display: inline-block;
-
   margin: 0px 10px 0px 2px;
-}
-.contact h5 {
-  text-align: left;
-  margin-bottom: 10px;
-  margin-top: 7px;
 }
 
 .number {
   float: left;
-  margin: 5px 10px 2px 2px;
+  margin: 0px 10px 0px 2px;
 }
 
-.mail {
-  float: left;
-}
-
-.copyright {
-  display: inline-block;
-  height: auto;
-  width: auto;
-}
 
 .copyright > h2,
 h4 {
@@ -102,41 +99,13 @@ h4 {
 
 @media screen and (max-width: 900px) {
   footer{
-    padding: 25px 10px 10px 10px;
+    flex-direction: column;
+    gap: 10px;
   }
   .contact{
-    width: 30%;
-  }
-  .s-m {
-    float: none;
-  }
-  .copyright{
-    float: right;
+    width: 100%;
   }
   .s-m{
-    display: inline-block;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  footer{
-    padding: 25px 10px 10px 10px;
-  }
-  .contact{
-    width: 40%;
-    
-  }
-  .s-m {
-    float: none;
-  }
-}
-@media screen and (max-width: 400px) {
-  .contact{
-    width: 100%;
-    margin: auto;
-  }
-  .copyright{
-    float: none;
+    width: max-content;
   }
 }

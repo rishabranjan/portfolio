@@ -46,7 +46,7 @@ export default function ProjectDetails(props) {
         <div className={classes.section2}>
           <Typography color="textPrimary" variant="body2">
             <a
-              href="https://rishabranjan.github.io/tic-tac-toe/"
+              href={props.ProjectDetails.links}
               target="_blank"
               rel="noreferrer"
             >

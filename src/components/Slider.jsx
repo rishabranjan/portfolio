@@ -24,22 +24,22 @@ class Slider extends Component {
       >
         {[
           {
-            img: "landingPage/girl1.png",
+            img: "/landingPage/girl1.png",
             para: "The design is clean and nice.",
             name: "#CleanDesign",
           },
           {
-            img: "landingPage/boy1.png",
+            img: "/landingPage/boy1.png",
             para: "It’s got video calling capabilities. You can do live classes with your students.",
             name: "#NiceColors",
           },
           {
-            img: "landingPage/girl2.png",
+            img: "/landingPage/girl2.png",
             para: "Create group and invite all students at once. No need to add students every time you create a live session.",
             name: "#Smoothness",
           },
           {
-            img: "landingPage/girl3.png",
+            img: "/landingPage/girl3.png",
             para: "Integrations of apps you already use and love like Spotify, Youtube Music and more. (Currently in testing, but its coming).",
             name: "#ColorCombination",
           },
@@ -55,7 +55,7 @@ class Slider extends Component {
               <div className="d-flex slider-main-div">
                 <div className="d-flex flex-column content-sect">
                   <img
-                    src={avatar.img}
+                    src={process.env.PUBLIC_URL + avatar.img}
                     className="img-responsive"
                     alt="profile"
                   />

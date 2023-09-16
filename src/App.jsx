@@ -12,16 +12,6 @@ class App extends Component {
   state = {
     data: [],
   };
-  // componentDidMount() {
-  //   axios
-  //     .get("http://localhost:8000/getcourses")
-  //     .then((res) => {
-  //       this.setState({ data: res });
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }
   render() {
     return (
       <>
@@ -33,7 +23,10 @@ class App extends Component {
               <span> Rishab Ranjan</span>
               <br />
             </h1>
-            <h3>Software Developer, working in TCS as a Systems Engineer.</h3>
+            <h3>
+              Software Developer, working in PayPal as a Senior Software
+              Engineer.
+            </h3>
             <h4>
               I'm a driven, ambitious and bold learner who adapts and absorbs
               information quickly. I'm always up for a challenge and view it as

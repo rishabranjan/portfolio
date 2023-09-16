@@ -8,7 +8,7 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    zIndex:10,
+    zIndex: 10,
   },
   paper: {
     // background: "#EBEBEB",
@@ -40,7 +40,11 @@ export default function ExperienceCard(props) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src={props.img} />
+              <img
+                className={classes.img}
+                alt="complex"
+                src={process.env.PUBLIC_URL + props.img}
+              />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
@@ -53,7 +57,7 @@ export default function ExperienceCard(props) {
                   {props.designation}
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  {props.startDate} -{" "}
+                  {`${props.startDate} - `}
                   {props.endDate ? props.endDate : "Present"}
                 </Typography>
               </Grid>

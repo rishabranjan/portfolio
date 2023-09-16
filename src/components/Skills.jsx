@@ -44,7 +44,7 @@ class Skills extends Component {
           </div>
           <img
             className="designer"
-            src="landingPage/skills.png"
+            src={process.env.PUBLIC_URL + "/landingPage/skills.png"}
             alt="designer"
             width="170px"
           />
