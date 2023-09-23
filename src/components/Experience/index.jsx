@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Card, Fab } from "@material-ui/core";
 import TrendingUpIcon from "@material-ui/icons/TrendingUp";
-import "./style/experience.css";
-import ExperienceCard from "./ExperianceCard";
+import ExperienceCard from "./ExperienceCard";
+import "./experience.css";
 
 class Experience extends Component {
   state = {};

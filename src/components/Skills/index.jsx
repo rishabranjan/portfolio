@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "@material-ui/core";
-import "./style/skills.css";
+import "./skills.css";
 import DragDrop from "./DragDrop";
 
 class Skills extends Component {

@@ -30,13 +30,11 @@
 
 .card__edge-button {
   margin: 0 auto -10px auto;
-  width: 350px;
   z-index: 11;
 }
 
 .separator-div{
   margin: 0 auto -10px auto;
-  width: 350px;
 }
 
 .separator {

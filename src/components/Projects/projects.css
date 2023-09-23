@@ -32,7 +32,7 @@
 
 .projectmain::after {
   content: "";
-  background: url("/src/components/style/project.svg") no-repeat center 100%;
+  background: url("/src/components/Projects/project.svg") no-repeat center 100%;
   opacity: 0.5;
   top: 0;
   left: 0;

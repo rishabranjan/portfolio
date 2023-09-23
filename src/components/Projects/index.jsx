@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Card } from "@material-ui/core";
-import "./style/projects.css";
 import ProjectNav from "./ProjectNav";
 import ProjectDetails from "./ProjectDetails";
+import "./projects.css";
 
 class Projects extends Component {
   state = {

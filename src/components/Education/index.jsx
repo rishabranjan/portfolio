@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "@material-ui/core";
-import "./style/education.css";
+import "./education.css";
 
 class Education extends Component {
   state = {};
