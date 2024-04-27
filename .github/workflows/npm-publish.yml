@@ -29,7 +29,11 @@ jobs:
           token: ${{ secrets.DEPLOY_TOKEN }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm run deploy
+      - run:
+          git remote set-url origin https://git:${secrets.DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy
+        env:
+          DEPLOY_TOKEN: ${{secrets.DEPLOY_TOKEN}}
