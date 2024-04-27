@@ -31,7 +31,7 @@ export const Home = () => {
             initialDelay={7000}
           />
         </h4>
-        <div className="s-m">
+        <div className="s-m mt-5">
           <a
             href="https://www.linkedin.com/in/rishab-ranjan-140745169/"
             rel="noreferrer"
