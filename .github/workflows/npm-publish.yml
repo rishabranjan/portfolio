@@ -30,8 +30,7 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run:
-          git remote set-url origin https://git:${secrets.DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npm run deploy
+      - run: git remote set-url origin https://git:${secrets.DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+      - run: npm run deploy
         env:
           DEPLOY_TOKEN: ${{secrets.DEPLOY_TOKEN}}
