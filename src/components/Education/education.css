@@ -122,18 +122,6 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 1200px) {
-  .section-one {
-    width: 50% !important;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .section-one {
-    width: 40% !important;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .eduhead{
     width: 100%;
@@ -150,6 +138,7 @@
   }
   .first-feature{
     margin: 0;
+    max-width: inherit;
   }
   .third-feature{
     margin: 0;
